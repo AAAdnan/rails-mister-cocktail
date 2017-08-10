@@ -1,0 +1,7 @@
+<% content_for(:title) do %>
+  "New Ingredient"
+<% end -%>
+<h2>Add Ingredient</h2>
+<%= render 'form' %>
+
+<%= link_to 'Back to Cocktail', cocktail_path(@cocktail) %>
