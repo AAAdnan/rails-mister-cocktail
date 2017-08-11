@@ -36,6 +36,7 @@ gem 'simple_form'
 gem 'better_errors'
 gem 'binding_of_caller'
 gem 'autoprefixer-rails'
+gem 'figaro'
 gem 'jquery-rails' # Add this line if you use Rails 5.1
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
@@ -61,7 +62,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'rspec-rails', group: [ :test ]
-gem 'rails-controller-testing', group: [ :test ]
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
