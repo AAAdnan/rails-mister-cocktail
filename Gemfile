@@ -23,15 +23,18 @@ gem 'coffee-rails', '~> 4.2'
 ruby '2.3.4'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 
+gem 'carrierwave', '~> 0.11.2'
+gem 'cloudinary'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'simple_form'
+gem 'better_errors'
+gem 'binding_of_caller'
 gem 'autoprefixer-rails'
 gem 'jquery-rails' # Add this line if you use Rails 5.1
 # Use Redis adapter to run Action Cable in production
